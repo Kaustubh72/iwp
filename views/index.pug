@@ -1,0 +1,30 @@
+html
+    head
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+        link(rel='stylesheet', href='css/normalize.css')
+        link(rel='stylesheet', href='css/skeleton.css')
+        link(rel="stylesheet" href="./css/style.css" type="text/css")
+        link(rel="stylesheet" href="./css/alt.css" type="text/css")
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        script.
+            (function (e, t, n) {
+            var r = e.querySelectorAll("html")[0];
+            r.className = r.className.replace(/(^|\\s)no-js(\s|$)/, "$1js$2")
+            })
+            (document, window, 0);
+
+    body
+        h1.center IWP Project
+        h5.center#tagline Listen to what any image would sound like
+        p.center#info Analyses image properties and it's pixel sequence values and correlates it to properties of music determining the scale, pitch, progression and pace of the music. All generated music is entirely generated from the image, has no random elements, and the results remain consistent.
+        form.center(action="/" enctype="multipart/form-data" method="POST")
+            .content
+                .box
+                    input#file-1.inputfile.inputfile-1(type='file', name='image')
+                    label(for='file-1')
+                        span Choose an image..
+                    p#fileval.formtextred Please select a file
+            button.btn.btn-primary#subbut(type='submit' title="Submit") Submit
+        p.center Creators- Kaustubh,Urjit and Shivam
+        script(src="./js/script.js")
+        script(src='./js/file.js')
