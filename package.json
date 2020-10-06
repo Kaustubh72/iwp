@@ -1,0 +1,21 @@
+{
+  "name": "synesthesia",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jimp": "^0.6.8",
+    "multer": "^1.4.2",
+    "pug": "^2.0.3",
+    "scribbletune": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ekaansh",
+  "license": "MIT"
+}
