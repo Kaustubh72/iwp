@@ -17,5 +17,5 @@
     "start": "node index.js"
   },
   "author": "kaustubh",
-  "license": "MIT"
+  "license": "ISC"
 }
