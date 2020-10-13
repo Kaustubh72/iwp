@@ -1,0 +1,35 @@
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/skeleton.css"/>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/alt.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script>
+      (function(e, t, n) {
+      var r = e.querySelectorAll("html")[0];
+      r.className = r.className.replace(/(^|\\\s)no-js(\s|$)/, "$1js$2")
+      })
+      (document, window, 0);
+    </script>
+  </head>
+  <h1 class="center">IWP Project</h1>
+  <h5 class="center" id="tagline">Listen to what any image would sound like</h5>
+  <p class="center" id="info">
+    Analyses image properties and it&apos;s pixel sequence values and correlates it to properties of music determining the scale, pitch, progression and pace of the music. All generated music is entirely generated from the image, has no random elements, and
+    the results remain consistent.
+  </p>
+  <form class="center" action="/" enctype="multipart/form-data" method="POST">
+    <div class="content">
+      <div class="box">
+        <input class="inputfile inputfile-1" id="file-1" type="file" name="image"/>
+        <label for="file-1"><span>Choose an image..</span></label>
+        <p class="formtextred" id="fileval">Please select a file</p>
+      </div>
+    </div>
+    <button class="btn btn-primary" id="subbut" type="submit" title="Submit">Submit</button>
+  </form>
+  <p class="center">Creators- Kaustubh,Urjit and Shivam</p>
+  <script src="./js/script.js"></script>
+  <script src="./js/file.js"></script>
